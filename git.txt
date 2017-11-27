@@ -1,0 +1,37 @@
+https ssh 协议
+
+1、使用ssh协议从远程仓库获取代码到本地
+ssh-keygen -t rsa -C "1051421758@qq.com"
+
+cat id_rsa.pub   查看公钥
+
+command
+git clone 把线上仓库clone到本地
+
+git status
+查询远程与本地文件区别
+
+git add . 把文件放入本地缓冲区
+git commit -m 'add Readme file' 把缓冲区的文件存储到本地的仓库
+git push  把代码提交到线上仓库
+	
+git pull  把线上代码拉倒本地仓库
+git pull = git fetch + git merge
+
+master  线上稳定版代码
+git checkout name  切换到name分支
+
+git merge name 把name上的代码和master上的代码融合
+
+把文件从缓存区拿到
+git commit -m 'change'
+git revert  
+
+
+git log  打印出你所有的commit（提交）
+git reset --hard  版本号
+
+git add a/  选择性的上传文件
+
+
+afdsafdsafdsafds
